@@ -1,0 +1,47 @@
+﻿[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< com.quiz:quiz-backend >------------------------
+[INFO] Building quiz-backend Maven Webapp 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ war ]---------------------------------
+[WARNING] The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ quiz-backend ---
+[INFO] Deleting C:\projectwebsite\backend\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ quiz-backend ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\projectwebsite\backend\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ quiz-backend ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 12 source files to C:\projectwebsite\backend\target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/projectwebsite/backend/src/main/java/com/quiz/dao/QuizDAO.java:[19,33] constructor Quiz in class com.quiz.model.Quiz cannot be applied to given types;
+  required: no arguments
+  found:    int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.sql.Timestamp
+  reason: actual and formal argument lists differ in length
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.343 s
+[INFO] Finished at: 2026-02-25T00:45:32+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile) on project quiz-backend: Compilation failure
+[ERROR] /C:/projectwebsite/backend/src/main/java/com/quiz/dao/QuizDAO.java:[19,33] constructor Quiz in class com.quiz.model.Quiz cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.sql.Timestamp
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] 
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

@@ -1,0 +1,12 @@
+C:\projectwebsite\backend\src\main\java\com\quiz\controller\AuthServlet.java
+C:\projectwebsite\backend\src\main\java\com\quiz\model\Question.java
+C:\projectwebsite\backend\src\main\java\com\quiz\dao\QuestionDAO.java
+C:\projectwebsite\backend\src\main\java\com\quiz\dao\UserScoreDAO.java
+C:\projectwebsite\backend\src\main\java\com\quiz\model\User.java
+C:\projectwebsite\backend\src\main\java\com\quiz\dao\QuizDAO.java
+C:\projectwebsite\backend\src\main\java\com\quiz\util\DBConnection.java
+C:\projectwebsite\backend\src\main\java\com\quiz\model\UserScore.java
+C:\projectwebsite\backend\src\main\java\com\quiz\controller\ScoreServlet.java
+C:\projectwebsite\backend\src\main\java\com\quiz\dao\UserDAO.java
+C:\projectwebsite\backend\src\main\java\com\quiz\controller\QuizServlet.java
+C:\projectwebsite\backend\src\main\java\com\quiz\model\Quiz.java
